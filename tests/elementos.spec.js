@@ -17,7 +17,7 @@ import { test, expect } from '@playwright/test';
 
 test('Página da calculadora responde', async ({ page }) => {
 
-  const response = await page.goto('https://www3.bcb.gov.br/CALCIDADAO/publico/corrigirPorIndice.do');
+  const response = await page.goto('https://www3.bcb.gov.br/CALCIDADAO/publico/corrigirPorIndice.do?method=corrigirPorIndice');
 
   expect(response.status()).toBe(200);
 
@@ -25,7 +25,7 @@ test('Página da calculadora responde', async ({ page }) => {
 
 test('Página carrega conteúdo HTML', async ({ page }) => {
 
-  await page.goto('https://www3.bcb.gov.br/CALCIDADAO/publico/corrigirPorIndice.do');
+  await page.goto('https://www3.bcb.gov.br/CALCIDADAO/publico/corrigirPorIndice.do?method=corrigirPorIndice');
 
   const content = await page.content();
 
@@ -35,7 +35,7 @@ test('Página carrega conteúdo HTML', async ({ page }) => {
 
 test('Página possui body', async ({ page }) => {
 
-  await page.goto('https://www3.bcb.gov.br/CALCIDADAO/publico/corrigirPorIndice.do');
+  await page.goto('https://www3.bcb.gov.br/CALCIDADAO/publico/corrigirPorIndice.do?method=corrigirPorIndice');
 
   await expect(page.locator('body')).toBeVisible();
 

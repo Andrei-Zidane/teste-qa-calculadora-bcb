@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test('Calcular correção com dados válidos', async ({ page }) => {
 
-  await page.goto('https://www3.bcb.gov.br/CALCIDADAO/publico/corrigirPorIndice.do');
+  await page.goto('https://www3.bcb.gov.br/CALCIDADAO/publico/corrigirPorIndice.do?method=corrigirPorIndice');
 
   // Pequeno delay necessário devido à forma como a página carrega scripts
   await page.waitForTimeout(3000);

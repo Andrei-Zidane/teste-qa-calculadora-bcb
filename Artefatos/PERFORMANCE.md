@@ -16,7 +16,7 @@ O Lighthouse permite avaliar diversos aspectos da qualidade de aplicações web,
 ## Ambiente de teste
 
 URL analisada:  
-https://www3.bcb.gov.br/CALCIDADAO/publico/corrigirPorIndice.do
+https://www3.bcb.gov.br/CALCIDADAO/publico/corrigirPorIndice.do?method=corrigirPorIndice
 
 Ferramenta utilizada: Lighthouse  
 Navegador: Google Chrome  
