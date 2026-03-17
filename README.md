@@ -10,7 +10,7 @@ O objetivo do projeto é realizar uma **análise exploratória da aplicação**,
 
 Calculadora do Cidadão – Banco Central do Brasil
 
-https://www3.bcb.gov.br/CALCIDADAO/publico/corrigirPorIndice.do
+https://www3.bcb.gov.br/CALCIDADAO/publico/corrigirPorIndice.do?method=corrigirPorIndice
 
 A aplicação permite realizar cálculos de correção monetária utilizando diferentes índices econômicos, como:
 
